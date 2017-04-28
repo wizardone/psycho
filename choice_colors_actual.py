@@ -2,6 +2,7 @@ import os, random, math, string
 from random import randint
 from math import radians, sin, cos
 from psychopy import core, visual, event, gui, misc, data 
+import tobiiresearch
 
 def enterSubInfo(expName):
     """Brings up a GUI in which to enter all the subject info."""
@@ -231,6 +232,10 @@ mouse = event.Mouse(visible=False,win=win)
 expClock = core.Clock()
 responseClock = core.Clock()
 choiceClock = core.Clock()
+
+
+
+
 
 ## Practice Instructions ##
 text1 = 'Welcome to the experiment. \

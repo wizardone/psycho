@@ -1,7 +1,7 @@
 from psychopy import visual, core
 
 win = visual.Window()
-msg = visual.TextStim(win, text="Hola!!")
+msg = visual.TextStim(win, text = "Hola!!")
 
 msg.draw()
 win.flip()
